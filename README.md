@@ -43,35 +43,32 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 etc..
 
-# Load a dataset
-data = pd.read_csv('data.csv')
 
-# Data manipulation with Pandas
-data['new_column'] = data['existing_column'] * 2
-
-# Data visualization with Matplotlib and Seaborn
-plt.figure(figsize=(10, 6))
-sns.scatterplot(x='feature1', y='feature2', data=data)
-plt.title('Feature1 vs Feature2')
-plt.show()
-
-# Machine learning with Scikit-learn
-X = data[['feature1', 'feature2']]
-y = data['target']
-
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-model = LinearRegression()
-model.fit(X_train, y_train)
-predictions = model.predict(X_test)
 ```
-## Crate a Python Virtual Enviournment
+# Crate a Python Virtual Enviournment
 
 ```sh
 cd path/to/your/project
 ```
 ```sh
-python -m venv myenv
+python -m venv source_venv
 ```
+```sh
+source_venv\Scripts\activate
+```
+```sh
+pip install -r py_libraries -y
+```
+### Deactivate the Virtual Environment:
+
+```sh
+deactivate
+```
+### To revert the ExecutionPolicy
+```sh
+Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser
+```
+
 ## Contributing
 
 If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
