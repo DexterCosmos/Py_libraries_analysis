@@ -69,7 +69,9 @@ predictions = model.predict(X_test)
 ```sh
 cd path/to/your/project
 ```
-
+```sh
+python -m venv myenv
+```
 ## Contributing
 
 If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
