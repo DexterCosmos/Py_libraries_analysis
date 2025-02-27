@@ -25,7 +25,7 @@ To install the required libraries, you can use the `py_libraries.txt` file inclu
 Once the virtual environment is activated, you can install the required libraries using the `py_libraries.txt` file. Run the following command:
 
 ```bash
-pip install -r py_libraries.txt
+pip install -r py_libraries.txt -y
 ```
 
 This command will install all the libraries listed in the `py_libraries.txt` file.
