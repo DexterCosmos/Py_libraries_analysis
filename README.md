@@ -17,18 +17,18 @@ This repository contains a list of essential Python libraries for data analysts.
 
 ## Installation
 
-To install the required libraries, you can use the `py_Libraries.txt` file included in this repository. Follow the steps below to set up your environment:
+To install the required libraries, you can use the `py_libraries.txt` file included in this repository. Follow the steps below to set up your environment:
 
 
 ### Step : Install the Required Libraries
 
-Once the virtual environment is activated, you can install the required libraries using the `py_Libraries.txt` file. Run the following command:
+Once the virtual environment is activated, you can install the required libraries using the `py_libraries.txt` file. Run the following command:
 
 ```bash
-pip install -r py_Libraries.txt
+pip install -r py_libraries.txt
 ```
 
-This command will install all the libraries listed in the `py_Libraries.txt` file.
+This command will install all the libraries listed in the `py_libraries.txt` file.
 
 ## Usage
 
