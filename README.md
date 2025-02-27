@@ -1,4 +1,4 @@
-# Data Analyst Python Libraries
+# Python Libraries
 
 This repository contains a list of essential Python libraries for data analysts. These libraries help in data manipulation, visualization, and machine learning tasks.
 
